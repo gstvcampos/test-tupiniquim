@@ -1,3 +1,4 @@
+import Header from '@/components/Header'
 import { cn } from '@/lib/ultis'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="pt-br" className="!scroll-smooth">
       <body className={cn(inter.className, 'font-sans antialiased')}>
         <main className="relative flex flex-col min-h-dvh overflow-hidden">
+          <Header />
           {children}
         </main>
       </body>
