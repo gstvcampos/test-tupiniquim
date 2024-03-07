@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Header() {
   return (
     <header className="w-full">
-      <div className="navbar max-w-screen-lg mx-auto justify-between">
+      <div className="navbar max-w-screen-xl mx-auto justify-between">
         <div className="inline-flex gap-8 items-center">
           <Link
             href={'/'}
