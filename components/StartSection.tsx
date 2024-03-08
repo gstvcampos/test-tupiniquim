@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function HowToGetStartSection() {
+export default function StartSection() {
   return (
     <div>
       <h2>How to get start?</h2>

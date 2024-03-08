@@ -1,9 +1,9 @@
-import WelcomeSection from '@/components/WelcomeSection'
+import StartSection from '@/components/StartSection'
 
 export default function Home() {
   return (
     <>
-      <WelcomeSection />
+      <StartSection />
     </>
   )
 }
