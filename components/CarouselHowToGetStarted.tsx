@@ -8,39 +8,52 @@ const sections = [
     src: '/solucao1.png',
     title: 'Create your account',
     description:
-      'Complete your account with some basic information including your home your work location and your working hours',
+      'Complete your account with some basic information including your home your work location and your working hours.',
   },
   {
     id: 2,
     src: '/solucao2.png',
     title: 'Plan your journeys',
     description:
-      'Complete your account with some basic information including your home your work location and your working hours',
+      'Open the app, click the agenda tab and enter your working hours for the coming week. Then you will be presented with  list of our drivers',
   },
   {
     id: 3,
     src: '/solucao3.png',
     title: 'Meet your driver',
     description:
-      'Complete your account with some basic information including your home your work location and your working hours',
+      'Use our chat to get to know your match with our driver. You will ba picked up at your regular location, or agree on an alternative pick-up location',
   },
   {
     id: 4,
     src: '/solucao4.png',
     title: 'Enjoy your journey',
     description:
-      'Complete your account with some basic information including your home your work location and your working hours',
+      'Get in, sit back and enjoy your journey that takes you directly to yout destination with some free cup of coffee from us',
   },
 ]
 
 export default function CarouselHowToGetStarted() {
   return (
     <div className="mx-auto w-full max-w-screen-2xl px-2.5 md:px-6">
-      <h2 className="text-center">How to get start?</h2>
+      <div className="w-full flex flex-col items-center">
+        <div className="py-20">
+          <Image
+            className="py-16"
+            src="/linha-reta.jpg"
+            alt="linha reta"
+            width={150}
+            height={100}
+          />
+          <h2 className="text-4xl font-bold text-primary">
+            How to get started?
+          </h2>
+        </div>
+      </div>
       <div className="carousel rounded-box  max-w-full">
         {sections.map((section) => (
           <div
-            className="w-1/2 md:w-1/4 flex-grow shrink-0 p-8 text-center"
+            className="w-1/2 md:w-1/4 flex-grow shrink-0 p-8 lg:p-16 text-center"
             key={section.id}
           >
             <div className="card h-full">
@@ -54,8 +67,8 @@ export default function CarouselHowToGetStarted() {
                   />
                 </div>
               </div>
-              <div className="card-body p-4">
-                <h2 className="font-bold text-base line-clamp-2 min-h-[2.5rem]">
+              <div className="card-body p-2">
+                <h2 className="font-bold text-2xl text-primary p-6">
                   {section.title}
                 </h2>
                 <p className="font-bold self-end">{section.description}</p>
