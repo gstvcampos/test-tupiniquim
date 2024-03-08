@@ -9,7 +9,7 @@ export default function DownloadSection() {
         backgroundPosition: 'center',
       }}
     >
-      <div className="mx-auto w-full max-w-screen-2xl px-2.5 md:px-6 text-primary">
+      <div className="w-full h-[400px] md:h-[700px] lg:h-[950px]">
         <div>
           <p className="mb-5 text-neutral">
             Download the DriveOn application to get more benefits and experience
