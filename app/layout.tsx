@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Header from '@/components/header/Header'
 import { cn } from '@/lib/ultis'
 import type { Metadata } from 'next'
@@ -22,6 +23,7 @@ export default function RootLayout({
         <main className="relative flex flex-col min-h-dvh overflow-hidden">
           <Header />
           {children}
+          <Footer />
         </main>
       </body>
     </html>
