@@ -6,13 +6,13 @@ export default function InfoSection() {
       className="hero"
       style={{
         backgroundImage: 'url(infoImage1.png), url(infoImage2.png)',
-        backgroundSize: 'contain',
+        backgroundSize: '30vw, 30vw',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'left top, right bottom',
       }}
     >
-      <div className="mx-auto w-full max-w-screen-2xl px-2.5 md:px-6 text-primary">
-        <div>
+      <div className="w-full max-w-screen-xl px-2.5 md:px-6 h-[50vh] sm:h-[60vh] md:h-[80vh] lg:h-[130vh]">
+        <div className="h-1/2 w-3/5">
           <p className="mb-5 text-neutral">
             Driveon is a mobile carpool platform that effortlessly brings
             commuters together in one car. Traveling home and work will never be
@@ -24,7 +24,7 @@ export default function InfoSection() {
             Learn more
           </Link>
         </div>
-        <div>
+        <div className="h-1/2 w-3/5">
           <h3>Our commitment to your safely</h3>
           <p className="mb-5 text-neutral">
             With every safety feature we add and every standard in the community
