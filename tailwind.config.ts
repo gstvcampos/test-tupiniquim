@@ -8,7 +8,21 @@ const config: Config = {
   ],
   theme: {},
   daisyui: {
-    themes: ['lofi'],
+    themes: [
+      {
+        mytheme: {
+          primary: '#5712A6',
+          secondary: '#ffffff',
+          accent: '#2678FA',
+          neutral: '#82809C',
+          'base-100': '#ffffff',
+          info: '#00ffff',
+          success: '#00ff00',
+          warning: '#00ff00',
+          error: '#ff0000',
+        },
+      },
+    ],
   },
   plugins: [require('daisyui')],
 }

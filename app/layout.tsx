@@ -1,4 +1,4 @@
-import Header from '@/components/Header'
+import Header from '@/components/header/Header'
 import { cn } from '@/lib/ultis'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
