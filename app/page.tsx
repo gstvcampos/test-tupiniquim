@@ -1,9 +1,11 @@
-import StartSection from '@/components/StartSection'
+import CarouselHowToGetStarted from '@/components/CarouselHowToGetStarted'
+import WelcomeSection from '@/components/WelcomeSection'
 
 export default function Home() {
   return (
     <>
-      <StartSection />
+      <WelcomeSection />
+      <CarouselHowToGetStarted />
     </>
   )
 }
