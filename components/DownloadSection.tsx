@@ -14,8 +14,8 @@ export default function DownloadSection() {
       }}
     >
       <div className="w-full h-[400px] md:h-[700px] lg:h-[950px]">
-        <div className="max-w-screen-xl flex items-center justify-end h-full">
-          <div className="flex flex-col w-">
+        <div className="max-w-screen-xl mx-auto h-full w-full flex justify-end">
+          <div className="w-3/5 h-full flex flex-col justify-center">
             <Image
               className="py-8"
               src="/linha-white.png"
@@ -23,10 +23,10 @@ export default function DownloadSection() {
               width={150}
               height={100}
             />
-            <p className="mb-5 text-neutral">
+            <h2 className="font-bold text-2xl text-primary">
               Download the DriveOn application to get more benefits and
               experience
-            </p>
+            </h2>
             <div>
               <button className="btn btn-primary">
                 <ClayStoreIcon />
