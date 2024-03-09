@@ -8,8 +8,8 @@ export default function Footer() {
       }}
     >
       <div className="w-full min-h-[400px]">
-        <footer className="footer text-base-100 max-w-screen-2xl mx-auto py-32 px-4">
-          <nav>
+        <footer className="footer text-base-100 max-w-screen-xl mx-auto py-32 px-4">
+          <nav className="md:col-span-2">
             <h6 className="footer-title">DriveOn</h6>
             <a className="link link-hover">Resolution Center</a>
             <a className="link link-hover">English</a>
@@ -35,9 +35,9 @@ export default function Footer() {
             <a className="link link-hover">Advanced Technologies Group</a>
           </nav>
         </footer>
-        <footer className="footer text-base-100 max-w-screen-2xl mx-auto py-4 border-t border-base-300">
+        <footer className="footer text-base-100 max-w-screen-xl w-[calc(100%-2rem)] mx-auto py-4 border-t">
           <aside className="items-center grid-flow-col">
-            <p>© 2019 DriveOnTechnologies Inc</p>
+            <p>© 2019 DriveOn Technologies Inc</p>
           </aside>
           <nav className="md:place-self-center md:justify-self-end">
             <div className="grid grid-flow-col gap-4">
