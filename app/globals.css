@@ -12,3 +12,7 @@
     @apply font-bold rounded border-none text-white;
     background: linear-gradient(to top right, #5D64EE, #26E0FA);
 }
+
+.btn-ghost {
+  @apply text-primary hover:underline hover:bg-transparent;
+}
