@@ -1,16 +1,8 @@
 export default function WelcomeSection() {
   return (
-    <div
-      className="hero"
-      style={{
-        backgroundImage: 'url(banner.png)',
-        backgroundSize: '80vh',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center right',
-      }}
-    >
+    <div className="w-full h-[70vh] bg-none md:bg-[url('/banner.png')] bg-right bg-no-repeat bg-contain">
       <div className="mx-auto w-full max-w-screen-2xl px-2.5 md:px-6 h-[90vh]">
-        <div className="w-/3 md:w-1/3 py-28">
+        <div className="md:w-1/3 py-28">
           <h1 className="mb-5 text-6xl font-bold text-primary">
             Start Your Workday Comportably
           </h1>
