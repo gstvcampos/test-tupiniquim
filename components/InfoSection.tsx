@@ -38,16 +38,29 @@ export default function InfoSection() {
           </div>
         </div>
 
-        <div className="h-1/2 w-3/5">
-          <h3>Our commitment to your safely</h3>
-          <p className="mb-5 text-neutral">
-            With every safety feature we add and every standard in the community
-            Guide that we uphold, we are committed to protecting you throughout
-            the journey. Learn more about our Community Guide <span>here</span>
-          </p>
-          <Link href={'/'} className="link">
-            See all safety features
-          </Link>
+        <div className="flex w-full h-1/2 items-end">
+          <div className="w-3/5 text-neutral text-3xl">
+            <Image
+              className="py-8"
+              src="/linha-reta.jpg"
+              alt="linha reta"
+              width={150}
+              height={100}
+            />
+            <h3 className="text-primary font-bold text-4xl py-16">
+              Our commitment <br />
+              to your safely
+            </h3>
+            <p className="py-8 text-neutral">
+              With every safety feature we add and every standard in the
+              community Guide that we uphold, we are committed to protecting you
+              throughout the journey. Learn more about our Community Guide{' '}
+              <span>here</span>
+            </p>
+            <Link href={'/'} className="link">
+              See all safety features
+            </Link>
+          </div>
         </div>
       </div>
     </div>

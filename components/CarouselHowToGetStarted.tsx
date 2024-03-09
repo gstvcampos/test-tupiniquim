@@ -71,7 +71,7 @@ export default function CarouselHowToGetStarted() {
                 <h2 className="font-bold text-2xl text-primary p-6">
                   {section.title}
                 </h2>
-                <p className="font-bold self-end">{section.description}</p>
+                <p>{section.description}</p>
               </div>
             </div>
           </div>
