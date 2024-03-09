@@ -4,16 +4,13 @@ import Link from 'next/link'
 export default function InfoSection() {
   return (
     <div
-      className="hero"
+      className="w-full md:bg-[url('/infoImage1.png'),_url('/infoImage2.png')] bg-no-repeat md:bg-[length:50vh] lg:bg-[length:60vh]"
       style={{
-        backgroundImage: 'url(infoImage1.png), url(infoImage2.png)',
-        backgroundSize: '30vw, 30vw',
-        backgroundRepeat: 'no-repeat',
         backgroundPosition: 'left top, right bottom',
       }}
     >
-      <div className="w-full max-w-screen-xl px-2.5 md:px-6 h-[50vh] sm:h-[60vh] md:h-[80vh] lg:h-[130vh]">
-        <div className="flex justify-end w-full h-1/2">
+      <div className="mx-auto w-full max-w-screen-2xl px-2.5 md:px-6">
+        <div className="flex justify-center md:justify-end min-h-[70vh]">
           <div className="w-3/5 text-neutral text-3xl">
             <Image
               className="py-16"
@@ -38,7 +35,7 @@ export default function InfoSection() {
           </div>
         </div>
 
-        <div className="flex w-full h-1/2 items-end">
+        <div className="flex w-full justify-center md:justify-start md:items-end min-h-[70vh]">
           <div className="w-3/5 text-neutral text-3xl">
             <Image
               className="py-8"
