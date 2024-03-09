@@ -25,7 +25,7 @@ export default function WelcomeSection() {
             </p>
           </div>
 
-          <button className="btn btn-primary">Discover</button>
+          <button className="btn btn-linear-gradient">Discover</button>
         </div>
       </div>
     </div>
