@@ -30,7 +30,7 @@ export default function Header() {
         <div>
           <button className="btn btn-ghost">
             <UserIcon />
-            Log in
+            <span className="hidden sm:block">Log in</span>
           </button>
           <button className="btn btn-outline btn-accent">Sign Up</button>
         </div>

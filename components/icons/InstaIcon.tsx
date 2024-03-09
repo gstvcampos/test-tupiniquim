@@ -3,9 +3,10 @@ import { SVGProps } from 'react'
 export const InstaIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={19}
-    height={17}
+    width={24}
+    height={24}
     fill="none"
+    viewBox="0 0 19 17"
     {...props}
   >
     <path

@@ -2,10 +2,10 @@ import Footer from '@/components/Footer'
 import Header from '@/components/header/Header'
 import { cn } from '@/lib/ultis'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const mont = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'DriveOn',
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className="!scroll-smooth">
-      <body className={cn(inter.className, 'font-sans antialiased')}>
+      <body className={cn(mont.className, 'font-sans antialiased')}>
         <main className="relative flex flex-col min-h-dvh overflow-hidden">
           <Header />
           {children}
