@@ -54,7 +54,7 @@ export default function InfoSection() {
             <p className="py-8 text-neutral">
               With every safety feature we add and every standard in the
               community Guide that we uphold, we are committed to protecting you
-              throughout the journey. Learn more about our Community Guide{' '}
+              throughout the journey. Learn more about our Community Guide
               <span>here</span>
             </p>
             <Link href={'/'} className="link">
