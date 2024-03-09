@@ -1,3 +1,5 @@
+import { LogoWhiteIcon } from './icons/LogoWhiteIcon'
+
 export default function Footer() {
   return (
     <div
@@ -10,7 +12,8 @@ export default function Footer() {
       <div className="w-full min-h-[400px]">
         <footer className="footer text-base-100 max-w-screen-xl mx-auto py-32 px-4">
           <nav className="md:col-span-2">
-            <h6 className="footer-title">DriveOn</h6>
+            <LogoWhiteIcon />
+
             <a className="link link-hover">Resolution Center</a>
             <a className="link link-hover">English</a>
           </nav>
