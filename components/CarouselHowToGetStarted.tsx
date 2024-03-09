@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 
-const sections = [
+const instructions = [
   {
     id: 1,
     src: '/solucao1.png',
@@ -51,7 +51,7 @@ export default function CarouselHowToGetStarted() {
         </div>
       </div>
       <div className="carousel rounded-box  max-w-full">
-        {sections.map((section) => (
+        {instructions.map((section) => (
           <div
             className="w-1/2 md:w-1/4 flex-grow shrink-0 p-8 lg:p-16 text-center"
             key={section.id}
