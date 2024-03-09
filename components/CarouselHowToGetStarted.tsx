@@ -35,7 +35,7 @@ const instructions = [
 
 export default function CarouselHowToGetStarted() {
   return (
-    <div className="mx-auto w-full max-w-screen-2xl px-2.5 md:px-6">
+    <section className="mx-auto w-full max-w-screen-2xl px-2.5 md:px-6">
       <div className="w-full flex flex-col items-center">
         <div className="py-20">
           <Image
@@ -77,6 +77,6 @@ export default function CarouselHowToGetStarted() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   )
 }

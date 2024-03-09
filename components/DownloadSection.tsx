@@ -4,7 +4,7 @@ import { PlayAppIcon } from './icons/PlayAppIcon'
 
 export default function DownloadSection() {
   return (
-    <div className="w-full h-[400px] md:h-[700px] lg:h-[950px] sm:bg-[url('/downloadImage.png')] bg-contain bg-no-repeat bg-center">
+    <section className="w-full h-[400px] md:h-[700px] lg:h-[950px] sm:bg-[url('/downloadImage.png')] bg-contain bg-no-repeat bg-center">
       <div className="max-w-screen-xl mx-auto h-full w-full flex justify-center sm:justify-end">
         <div className="md:w-2/4 h-full flex flex-col justify-center">
           <Image
@@ -43,6 +43,6 @@ export default function DownloadSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

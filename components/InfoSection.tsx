@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function InfoSection() {
   return (
-    <div
+    <section
       className="w-full md:bg-[url('/infoImage1.png'),_url('/infoImage2.png')] bg-no-repeat md:bg-[length:50vh] lg:bg-[length:60vh]"
       style={{
         backgroundPosition: 'left top, right bottom',
@@ -60,6 +60,6 @@ export default function InfoSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

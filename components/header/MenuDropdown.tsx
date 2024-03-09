@@ -12,16 +12,16 @@ export default function MenuDropdown() {
         className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
       >
         <li>
-          <Link href="/drivers">Drivers</Link>
+          <Link href="#drivers">Drivers</Link>
         </li>
         <li>
-          <Link href="/passengers">Passengers</Link>
+          <Link href="#passengers">Passengers</Link>
         </li>
         <li>
-          <Link href="/about">About us</Link>
+          <Link href="#about">About us</Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="#contact">Contact</Link>
         </li>
       </ul>
     </div>

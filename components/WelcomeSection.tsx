@@ -1,6 +1,6 @@
 export default function WelcomeSection() {
   return (
-    <div className="w-full lg:min-h-[90vh] bg-none md:bg-[url('/banner.png')] bg-right bg-no-repeat bg-contain">
+    <section className="w-full lg:min-h-[90vh] bg-none md:bg-[url('/banner.png')] bg-right bg-no-repeat bg-contain">
       <div className="mx-auto w-full max-w-screen-2xl px-2.5 md:px-6">
         <div className="md:w-1/3 py-28">
           <h1 className="mb-5 text-6xl font-bold text-primary">
@@ -22,6 +22,6 @@ export default function WelcomeSection() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function RegisterSection() {
   return (
-    <div className="mx-auto w-full max-w-screen-xl px-2.5 md:px-6 py-20">
+    <section className="mx-auto w-full max-w-screen-xl px-2.5 md:px-6 py-20">
       <div className="flex flex-wrap gap-20 md:gap-0">
         <div className="w-full md:w-1/2">
           <div className="flex gap-24 pb-10">
@@ -38,6 +38,6 @@ export default function RegisterSection() {
           />
         </div>
       </div>
-    </div>
+    </section>
   )
 }

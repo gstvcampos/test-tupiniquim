@@ -14,16 +14,16 @@ export default function Header() {
           </Link>
           <ul className="menu menu-horizontal text-neutral hidden md:flex">
             <li>
-              <Link href="/drivers">Drivers</Link>
+              <Link href="#drivers">Drivers</Link>
             </li>
             <li>
-              <Link href="/passengers">Passengers</Link>
+              <Link href="#passengers">Passengers</Link>
             </li>
             <li>
-              <Link href="/about">About us</Link>
+              <Link href="#about">About us</Link>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
         </div>
