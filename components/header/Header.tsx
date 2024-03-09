@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { UserIcon } from '../icons/UserIcon'
 
 export default function Header() {
   return (
@@ -74,8 +75,11 @@ export default function Header() {
           </ul>
         </div>
         <div>
-          <button className="btn">Log in</button>
-          <button className="btn">Sign Up</button>
+          <button className="btn btn-ghost text-primary hover:underline hover:bg-transparent">
+            <UserIcon />
+            Log in
+          </button>
+          <button className="btn btn-outline btn-accent">Sign Up</button>
         </div>
       </div>
     </header>
