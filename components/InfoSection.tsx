@@ -28,9 +28,13 @@ export default function InfoSection() {
               is to stop traffic jams and CO2 pollution as a result of
               inefficient car commuting
             </p>
-            <p>Are you in?</p>
-            <Link href={'/'} className="link">
-              Learn more ❯❯
+            <p className="py-8">Are you in?</p>
+            <Link
+              href={'/'}
+              className="text-accent inline-flex font-bold items-center py-4 space-x-2"
+            >
+              <span className="hover:underline">Learn more</span>
+              <span className="text-sm">❯❯</span>
             </Link>
           </div>
         </div>
@@ -54,8 +58,12 @@ export default function InfoSection() {
               throughout the journey. Learn more about our Community Guide
               <span>here</span>
             </p>
-            <Link href={'/'} className="link">
-              See all safety features ❯❯
+            <Link
+              href={'/'}
+              className="text-accent inline-flex items-center py-4 space-x-2"
+            >
+              <span className="hover:underline">See all safety features </span>
+              <span className="text-sm">❯❯</span>
             </Link>
           </div>
         </div>
