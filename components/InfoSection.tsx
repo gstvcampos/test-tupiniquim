@@ -30,7 +30,7 @@ export default function InfoSection() {
             </p>
             <p>Are you in?</p>
             <Link href={'/'} className="link">
-              Learn more
+              Learn more ❯❯
             </Link>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function InfoSection() {
               <span>here</span>
             </p>
             <Link href={'/'} className="link">
-              See all safety features
+              See all safety features ❯❯
             </Link>
           </div>
         </div>
