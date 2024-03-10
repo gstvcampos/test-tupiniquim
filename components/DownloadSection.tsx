@@ -5,7 +5,7 @@ import { PlayAppIcon } from './icons/PlayAppIcon'
 export default function DownloadSection() {
   return (
     <section className="w-full h-[400px] md:h-[700px] lg:h-[950px] sm:bg-[url('/downloadImage.png')] bg-contain bg-no-repeat bg-center">
-      <div className="max-w-screen-xl mx-auto h-full w-full flex justify-center sm:justify-end">
+      <div className="max-w-screen-xl mx-auto h-full w-full flex justify-center sm:justify-end px-2.5 md:px-6">
         <div className="md:w-2/4 h-full flex flex-col justify-center">
           <Image
             className="hidden sm:block py-8"
@@ -25,7 +25,7 @@ export default function DownloadSection() {
             Download the DriveOn application <br />
             to get more benefits and experience
           </h2>
-          <div className="space-x-10">
+          <div className="space-x-2 md:space-x-10">
             <button className="btn bg-black text-white border-none hover:bg-black">
               <ClayStoreIcon />
               <p className="flex flex-col items-start">

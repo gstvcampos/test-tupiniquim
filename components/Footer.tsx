@@ -49,7 +49,7 @@ export default function Footer() {
             <a className="link link-hover">Advanced Technologies Group</a>
           </nav>
         </footer>
-        <footer className="footer text-base-100 max-w-screen-xl w-[calc(100%-2rem)] mx-auto py-4 border-t">
+        <footer className="footer text-base-100 max-w-screen-xl w-[calc(100%-2rem)] mx-auto py-4 border-t gap-y-4">
           <aside className="items-center grid-flow-col">
             <p>© 2019 DriveOn Technologies Inc</p>
           </aside>

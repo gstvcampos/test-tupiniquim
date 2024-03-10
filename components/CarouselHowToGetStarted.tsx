@@ -53,7 +53,7 @@ export default function CarouselHowToGetStarted() {
       <div className="carousel rounded-box  max-w-full">
         {instructions.map((section) => (
           <div
-            className="w-1/2 md:w-1/4 flex-grow shrink-0 p-8 lg:p-16 text-center"
+            className="w-1/2 md:w-1/4 flex-grow shrink-0 lg:p-16 text-center"
             key={section.id}
           >
             <div className="card h-full">
@@ -68,7 +68,7 @@ export default function CarouselHowToGetStarted() {
                 </div>
               </div>
               <div className="card-body p-2">
-                <h2 className="font-bold text-2xl text-primary p-6">
+                <h2 className="font-bold text-2xl text-primary lg:p-6">
                   {section.title}
                 </h2>
                 <p className="text-neutral">{section.description}</p>
