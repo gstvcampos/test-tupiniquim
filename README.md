@@ -1,18 +1,17 @@
-# Agência de Carona
+# DriveOn Agência de Carona
 
 Este é um projeto de uma agência de carona responsiva usando Next.js e Tailwind CSS.
 Este projeto é um teste para uma vaga de Desenvolvedor na Agência Tupiniquim.
 
 ## Capturas de Tela
 
-### Mobile
-
-![Mobile Screen](/public/mobileScreen.png)
-
 ### Desktop
 
 ![Desktop Screen](/public/desktopScreen.png)
 
+### Mobile
+
+![Mobile Screen](/public/mobileScreen.png)
 
 [Projeto live](https://jet-teste-tecnico-dev-frontend-three.vercel.app/)
 
