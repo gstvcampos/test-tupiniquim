@@ -23,7 +23,7 @@ Certifique-se de ter o Node.js instalado em sua máquina.
 
 1. Clone este repositório:
 
-2.Em seguida, acesse o diretório do projeto "cd test-tupiniquim"
+2. Em seguida, acesse o diretório do projeto "cd test-tupiniquim"
 
 3. Instale as dependências "npm install"
 
