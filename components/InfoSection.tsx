@@ -34,7 +34,7 @@ export default function InfoSection() {
               className="text-accent inline-flex font-bold items-center py-4 space-x-2"
             >
               <span className="hover:underline">Learn more</span>
-              <span className="text-sm">❯❯</span>
+              <span className="text-xs">❯❯</span>
             </Link>
           </div>
         </div>
@@ -56,14 +56,16 @@ export default function InfoSection() {
               With every safety feature we add and every standard in the
               community Guide that we uphold, we are committed to protecting you
               throughout the journey. Learn more about our Community Guide
-              <span>here</span>
+              <span className="text-primary font-bold cursor-pointer bg-[url(/linha-reta.jpg)] bg-[length:100%_6px] bg-no-repeat bg-bottom mx-2 pb-1">
+                here.
+              </span>
             </p>
             <Link
               href={'/'}
               className="text-accent inline-flex items-center py-4 space-x-2"
             >
               <span className="hover:underline">See all safety features </span>
-              <span className="text-sm">❯❯</span>
+              <span className="text-xs">❯❯</span>
             </Link>
           </div>
         </div>
