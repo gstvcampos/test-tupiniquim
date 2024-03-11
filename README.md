@@ -3,6 +3,8 @@
 Este é um projeto de uma agência de carona responsiva usando Next.js e Tailwind CSS.
 Este projeto é um teste para uma vaga de Desenvolvedor na Agência Tupiniquim.
 
+[Projeto live](https://jet-teste-tecnico-dev-frontend-three.vercel.app/)
+
 ## Pré-requisitos
 
 Certifique-se de ter o Node.js instalado em sua máquina.
@@ -25,9 +27,9 @@ Certifique-se de ter o Node.js instalado em sua máquina.
 
 ### Mobile
 
-![Mobile Screen](mobilescreen.png)
+![Mobile Screen](mobileScreen.png)
 
 ### Desktop
 
-![Desktop Screen](desktopscreen.png)
+![Desktop Screen](desktopScreen.png)
 
