@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import MotionDiv from './MotionDiv'
 
 export default function InfoSection() {
   return (
@@ -11,7 +12,7 @@ export default function InfoSection() {
     >
       <div className="mx-auto w-full max-w-screen-2xl px-2.5 md:px-6">
         <div className="flex justify-center md:justify-end min-h-[70vh]">
-          <div className="md:w-3/5 text-neutral text-2xl">
+          <MotionDiv className="md:w-3/5 text-neutral text-2xl">
             <Image
               className="py-16"
               src="/linha-reta.jpg"
@@ -36,11 +37,11 @@ export default function InfoSection() {
               <span className="hover:underline">Learn more</span>
               <span className="text-xs">❯❯</span>
             </Link>
-          </div>
+          </MotionDiv>
         </div>
 
         <div className="flex w-full justify-center md:justify-start md:items-end min-h-[70vh]">
-          <div className="md:w-3/5 text-neutral text-2xl">
+          <MotionDiv className="md:w-3/5 text-neutral text-2xl">
             <Image
               className="py-8"
               src="/linha-reta.jpg"
@@ -67,7 +68,7 @@ export default function InfoSection() {
               <span className="hover:underline">See all safety features </span>
               <span className="text-xs">❯❯</span>
             </Link>
-          </div>
+          </MotionDiv>
         </div>
       </div>
     </section>
