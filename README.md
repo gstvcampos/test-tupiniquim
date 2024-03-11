@@ -5,18 +5,13 @@ Este projeto é um teste para uma vaga de Desenvolvedor na Agência Tupiniquim.
 
 ## Capturas de Tela
 
-## Capturas de Tela
+### Mobile
 
-<div style="display: flex; justify-content: space-around;">
-  <div>
-    <h3>Mobile</h3>
-    <img src="/public/mobileScreen.png" alt="Mobile Screen" style="width: 45%;">
-  </div>
-  <div>
-    <h3>Desktop</h3>
-    <img src="/public/desktopScreen.png" alt="Desktop Screen" style="width: 45%;">
-  </div>
-</div>
+![Mobile Screen](/public/mobileScreen.png)
+
+### Desktop
+
+![Desktop Screen](/public/desktopScreen.png)
 
 
 [Projeto live](https://jet-teste-tecnico-dev-frontend-three.vercel.app/)
